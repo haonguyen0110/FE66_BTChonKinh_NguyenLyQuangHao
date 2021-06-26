@@ -73,11 +73,11 @@ export default class Model extends Component {
         desc: this.arrProduct[6].desc
     }
 
-    handleGL = (idex)=>{
+    handleGL = (index)=>{
         this.setState({
-            imgSRC: this.arrProduct[idex].url,
-        name: this.arrProduct[idex].name,
-        desc: this.arrProduct[idex].desc
+            imgSRC: this.arrProduct[index].url,
+        name: this.arrProduct[index].name,
+        desc: this.arrProduct[index].desc
         })
     }
    

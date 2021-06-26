@@ -2,7 +2,6 @@
 import './App.css';
 import Header from './Component/Header';
 import Model from './Component/Model';
-import ProductList from './Component/ProductList';
 function App() {
 
   return (
